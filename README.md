@@ -1,14 +1,14 @@
 LESS reloader for node.js
 ====
 
-LESS reloader listen for any changes on a folder containing LESS files and automatically compiles the indicated files on CSS and notifies all the pages reading this CSS to update it on real time.
+LESS reloader listen for any changes on a folder containing LESS files and automatically compiles them into CSS and notifies all the browsers reading the CSS to reload it.
 
 This pretends to be a node.js emulation of Livreload.
 
 How to use
 ----
 
-First of all you need to instal the latest version of node.js. Once this is done install all the dependencies using NPM
+First of all you need to instal the latest version of node.js. Once this has been done, install all the dependencies using NPM:
 ```
 	npm install watch http socket.io less fs cli-color
 ```
@@ -36,8 +36,8 @@ module.exports = {
 
 ```
 
-Once all the previous steps has been done we can start the server application. Move to the folder and call app.js using node.
+When all this has been done, we can start the server application. Move to the folder and call app.js using node.
 
 	node app.js
 	
-Now open few windows of your website. Change a property on your code and see it instantly changed on all the windows!
+Now open your website on few browser windows, Change a property on your code and see the changes instantly on the windows!
