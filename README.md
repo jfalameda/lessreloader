@@ -1,7 +1,7 @@
 LESS reloader for node.js
 ====
 
-LESS reloader listen for any changes on a folder containing LESS files and automatically compiles them into CSS and notifies all the browsers reading the CSS to reload it.
+LESS reloader listens for any changes on a folder containing LESS files and automatically compiles them into CSS and notifies all the browsers reading the CSS to reload it.
 
 This pretends to be a node.js emulation of Livreload.
 
